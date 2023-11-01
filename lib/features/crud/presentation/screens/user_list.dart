@@ -24,14 +24,14 @@ class _UserListState extends ConsumerState<UserList> {
     return Scaffold(
         drawer: Drawer(
             width: 200,
-            backgroundColor: Colors.blue,
+            backgroundColor: Color.fromARGB(255, 171, 213, 247),
             child: Container(
                 padding: const EdgeInsets.only(top: 50),
                 child: Column(children: [
                   ListTile(
                       leading: const Icon(Icons.new_label),
                       title: const Text("Get User List",
-                          style: TextStyle(color: Colors.white, fontSize: 15)),
+                          style: TextStyle(color: Colors.black, fontSize: 15)),
                       onTap: () {
                         Navigator.push(
                             context,
@@ -41,7 +41,7 @@ class _UserListState extends ConsumerState<UserList> {
                   ListTile(
                       leading: const Icon(Icons.new_label),
                       title: const Text("Create new user",
-                          style: TextStyle(color: Colors.white, fontSize: 15)),
+                          style: TextStyle(color: Colors.black, fontSize: 15)),
                       onTap: () {
                         Navigator.push(
                             context,
@@ -51,7 +51,7 @@ class _UserListState extends ConsumerState<UserList> {
                   ListTile(
                       leading: const Icon(Icons.new_label),
                       title: const Text("Update User",
-                          style: TextStyle(color: Colors.white, fontSize: 15)),
+                          style: TextStyle(color: Colors.black, fontSize: 15)),
                       onTap: () {
                         Navigator.push(
                             context,
@@ -61,7 +61,7 @@ class _UserListState extends ConsumerState<UserList> {
                   ListTile(
                       leading: const Icon(Icons.new_label),
                       title: const Text("Delete User",
-                          style: TextStyle(color: Colors.white, fontSize: 15)),
+                          style: TextStyle(color: Colors.black, fontSize: 15)),
                       onTap: () {
                         Navigator.push(
                             context,
